@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>T-Shirt Mockup Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['"IBM Plex Mono"', 'monospace'],
+            },
+            colors: {
+              primary: '#facc15', // yellow-400
+              secondary: '#f472b6', // pink-400
+              accent: '#3b82f6', // blue-500
+              neutral: '#000000',
+              'base-100': '#ffffff',
+              'base-200': '#e5e7eb', // gray-200
+              'base-300': '#d1d5db', // gray-300
+            },
+            boxShadow: {
+              'brutal': '4px 4px 0px #000',
+            },
+            borderRadius: {
+              'none': '0',
+              'sm': '0',
+              '': '0',
+              'md': '0',
+              'lg': '0',
+              'xl': '0',
+              '2xl': '0',
+              '3xl': '0',
+              'full': '0',
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "idb": "https://cdn.jsdelivr.net/npm/idb@7/build/index.js"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-base-200 text-neutral font-sans">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

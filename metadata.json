@@ -1,0 +1,5 @@
+{
+  "name": "T-Shirt Mockup Generator",
+  "description": "An intuitive web application for creating professional T-shirt mockups. Upload your T-shirt templates, define design placement areas, and save them as profiles. Then, upload your design, select a profile, and instantly generate high-quality mockups with adjustable opacity, ready for download.",
+  "requestFramePermissions": []
+}
